@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gridt</id>
+    <version>2.0.0</version>
+    <packageSourceUrl>https://github.com/Nhanderu/chocolatey-packages/tree/master/gridt</packageSourceUrl>
+    <owners>Rafael Escobar</owners>
+
+    <title>gridt</title>
+    <authors>Rafael Escobar</authors>
+    <projectUrl>https://github.com/Nhanderu/gridt</projectUrl>
+    <projectSourceUrl>https://github.com/Nhanderu/gridt</projectSourceUrl>
+    <license type="expression">Unlicense</license>
+    <licenseUrl>https://github.com/Nhanderu/gridt/tree/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://github.com/Nhanderu/gridt/tree/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/Nhanderu/gridt/issues</bugTrackerUrl>
+    <tags>grid terminal go golang cli</tags>
+    <summary>Display contents as a grid in the terminal! </summary>
+    <description>Display contents as a grid in the terminal! </description>
+    <releaseNotes>https://github.com/Nhanderu/gridt/releases/tag/v2.0.0</releaseNotes>
+    <dependencies>
+      <!-- <dependency id="rustup.install" version="1.22.0" /> -->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>

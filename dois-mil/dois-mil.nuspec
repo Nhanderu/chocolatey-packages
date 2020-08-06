@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dois-mil</id>
+    <version>1.0.2</version>
+    <packageSourceUrl>https://github.com/Nhanderu/chocolatey-packages/tree/master/dois-mil</packageSourceUrl>
+    <owners>Rafael Escobar</owners>
+
+    <title>dois-mil</title>
+    <authors>Rafael Escobar</authors>
+    <projectUrl>https://github.com/Nhanderu/dois-mil</projectUrl>
+    <projectSourceUrl>https://github.com/Nhanderu/dois-mil</projectSourceUrl>
+    <license type="expression">Unlicense</license>
+    <licenseUrl>https://github.com/Nhanderu/dois-mil/tree/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://github.com/Nhanderu/dois-mil/tree/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/Nhanderu/dois-mil/issues</bugTrackerUrl>
+    <tags>2048 terminal tty game rust</tags>
+    <summary>2048 in the terminal!</summary>
+    <description>2048 in the terminal!</description>
+    <releaseNotes>https://github.com/Nhanderu/dois-mil/releases/tag/v1.0.2</releaseNotes>
+    <dependencies>
+      <!-- <dependency id="rustup.install" version="1.22.0" /> -->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools" />
+  </files>
+</package>
